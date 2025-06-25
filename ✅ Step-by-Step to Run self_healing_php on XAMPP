@@ -1,0 +1,48 @@
+🔧 1. Install XAMPP (if not done already)
+Download from: https://www.apachefriends.org
+
+Install it → Launch XAMPP Control Panel
+
+🔧 2. Start Apache
+In the XAMPP Control Panel → Click Start on Apache
+
+It should turn green
+
+✅ This means your PHP server is running at:
+http://localhost/
+
+📁 3. Project Folder Setup
+Go to the XAMPP installation directory
+→ Usually:
+
+C:\xampp\htdocs\
+Inside htdocs, create a new folder:
+
+C:\xampp\htdocs\self_healing_php
+Place the following files inside that folder:
+
+index.php
+classify.php
+style.css
+logs/ (create this folder manually)
+  └── execution_log.txt (create an empty file)
+✅ Make sure file names are correct and no .txt hidden extensions.
+
+🌐 4. Open in Browser
+Now open your browser and go to:
+
+http://localhost/self_healing_php/
+You will see the form like:
+
+[ Textarea ]
+[ Classify Button ]
+🧪 5. Test it
+Enter: This service was bad.
+
+Click Classify
+
+If confidence < 0.7 → popup asks you to confirm
+
+Based on your response, the result is shown
+
+Logs are written to: logs/execution_log.txt
