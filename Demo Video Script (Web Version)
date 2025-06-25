@@ -1,0 +1,14 @@
+📹 Demo Video Script (Web Version)
+Open the index.html in a browser.
+
+Enter This movie was painfully bad.
+
+Click Classify
+
+If confidence < 0.7, confirm box appears — click OK for Negative.
+
+View result and log messages below.
+
+Repeat with A fantastic experience — should predict positive.
+
+Open browser console (F12) → logs visible there too.
