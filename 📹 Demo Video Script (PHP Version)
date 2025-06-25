@@ -1,0 +1,17 @@
+Open XAMPP → Start Apache.
+
+Place project folder in htdocs/.
+
+Open browser → http://localhost/self_healing_php/
+
+Enter text like The movie was so bad it hurt.
+
+Click Classify
+
+If popup appears, choose OK (Negative) or Cancel (Positive)
+
+See result page.
+
+Open logs/execution_log.txt to show recorded log.
+
+Repeat with another text.
